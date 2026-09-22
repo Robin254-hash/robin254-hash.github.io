@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About"
 ---
-## **Cybersecurity & ICT Professional**
+ ## **Cybersecurity & ICT Professional**
 ### **Nairobi-Kenya, Remote Anywhere**
 
  Computer Science graduate and Cybersecurity Specialist with hands-on experience in SOC operations, endpoint security, SIEM event monitoring, and enterprise IT support in public sector environments. Skilled in incident identification, vulnerability assessments, and system patching using tools like NetWitness SIEM, Bitdefender GravityZone, and ManageEngine.
