@@ -6,8 +6,8 @@ layout: home
 author_profile: true
 ---
 ---
-# **"Hi, I'm Alfayo Robin"**
-## **"Cybersecurity Analyst | Technical Support | IT Professional"**
+# **Hi, I'm Alfayo Robin**
+## **Cybersecurity Analyst | Technical Support | IT Professional**
 ---
 I am a **Junior Cybersecurity Analyst and IT Professional** with a background in Computer Science and hands-on experience across ICT support, system administration and cybersecurity.
 
