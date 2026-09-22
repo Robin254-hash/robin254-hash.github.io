@@ -6,24 +6,52 @@ layout: single
 author_profile: true
 ---
 ---
-# **Hi, I'm Alfayo Robin**
-## **Cybersecurity Analyst | Technical Support | IT Professional**
 ---
-I am a **Junior Cybersecurity Analyst and IT Professional** with a background in Computer Science and hands-on experience across ICT support, system administration and cybersecurity.
+layout: default
+title: Home | Alfayo Robin Boiyo
+---
+# Hi, I'm Alfayo Robin Boiyo 👋
 
-I am building practical security skills through professional training, hands-on labs and technical projects, with a growing focus on **security monitoring, SOC operations, incident response and defensive security as well as penetration testing**.
+### **Cybersecurity & IT Operations Specialist**
+📍 *Nairobi, Kenya* | 🟢 *Open to Junior Cybersecurity / SOC Analyst Roles*
 
-### What I work with
+---
 
-- **Cybersecurity:** SIEM monitoring, endpoint security, security awareness and practical security labs
-- **Systems:** Windows, Linux, Active Directory and Microsoft 365
-- **Networking:** TCP/IP, DNS, DHCP, LAN/WAN and basic routing and switching
-- **IT Support:** Hardware/software troubleshooting, user support, patching, backups and IP-phone deployment
-- **Tools:** NetWitness, Bitdefender, Nmap, ManageEngine
-- **Development:** Python, SQL, MySQL
+## 🛡️ Quick Summary
+I specialize in **SOC operations, SIEM event monitoring, endpoint security, and enterprise system administration**. With a strong foundation in Computer Science and hands-on experience in public sector IT environments, I focus on identifying threats, managing vulnerabilities, and maintaining secure system operations.
 
-### Currently learning
+[📄 View Full Resume](./resume.md) &nbsp; | &nbsp; [📥 Download PDF Resume](./Alfayo_Robin_Security.pdf)
 
-I am continuing to develop my cybersecurity skills through **HTB Academy** practical labs and **Cyber Shujaa** training, while building a portfolio of hands-on write-ups and projects.
+---
 
-[View my projects](/projects/) · [Read my write-ups](/writeups/) · [Get in touch](mailto:alfarobbs83@gmail.com)
+## 🚀 Key Focus Areas
+
+- **SOC & Security Monitoring:** SIEM analysis, alert triage, incident response, and threat intelligence.
+- **Endpoint Protection & Systems:** Bitdefender GravityZone, Active Directory, software patching (ManageEngine), Windows/Linux administration.
+- **Network Security:** Packet analysis (Wireshark), port reconnaissance (Nmap), and network diagnostics.
+
+---
+
+## ⚡ Featured Projects
+
+### 🔎 Vulnerability Assessment & Threat Intelligence Report
+Conducted network reconnaissance using **Nmap** to identify exposed services, mapping vulnerabilities directly to **CVE records, CVSS scores, and the MITRE ATT&CK framework**.
+👉 [Read Full Project Write-up](./projects/vulnerability-assessment.md) *(or add GitHub link)*
+
+### 🧪 SOC Level 1 Incident Response Labs
+Investigated simulated security incidents, performed packet analysis via **Wireshark**, and completed threat triage using **NetWitness SIEM**.
+👉 [View Lab Breakdown](./projects/soc-labs.md) *(or add GitHub link)*
+
+---
+
+## 🏆 Core Certifications
+- **Google Cybersecurity Professional Certificate**
+- **Cisco Certified Support Technician (CCST - Security)**
+- **Google IT System Administration and IT Infrastructure Services Certificate**
+
+---
+
+## 📬 Connect With Me
+* **LinkedIn:** [linkedin.com/in/alfayo-robin-32644b1a6](https://www.linkedin.com/in/alfayo-robin-32644b1a6)
+* **Email:** [alfarobbs83@gmail.com](mailto:alfarobbs83@gmail.com)
+* **GitHub:** [github.com/YOUR_GITHUB_USERNAME](https://github.com/YOUR_GITHUB_USERNAME) · [Get in touch](mailto:alfarobbs83@gmail.com)
