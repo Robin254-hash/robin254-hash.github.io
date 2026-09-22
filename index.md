@@ -16,7 +16,7 @@ author_profile: true
 ## 🛡️ Quick Summary
 I specialize in **SOC operations, SIEM event monitoring, endpoint security, and enterprise system administration**. With a strong foundation in Computer Science and hands-on experience in public sector IT environments, I focus on identifying threats, managing vulnerabilities, and maintaining secure system operations.
 
-[📄 View Full Resume](/about) &nbsp; | &nbsp; [📥 Download PDF Resume](./Alfayo_Robin_Security.pdf)
+[📄 View Full Resume](/resume) &nbsp; | &nbsp; [📥 Download PDF Resume](./Alfayo_Robin_Security.pdf)
 
 ---
 
