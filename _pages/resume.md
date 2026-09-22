@@ -1,6 +1,6 @@
 ---
-permalink: /about/
-title: "About"
+permalink: /resume/
+title: "My Resume"
 ---
 # **Cybersecurity & ICT Professional**
 ### **Nairobi-Kenya, Remote Anywhere**
