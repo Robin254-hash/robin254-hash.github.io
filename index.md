@@ -54,4 +54,4 @@ Investigated simulated security incidents, performed packet analysis via **Wires
 ## 📬 Connect With Me
 * **LinkedIn:** [linkedin.com/in/alfayo-robin-32644b1a6](https://www.linkedin.com/in/alfayo-robin-32644b1a6)
 * **Email:** [alfarobbs83@gmail.com](mailto:alfarobbs83@gmail.com)
-* **GitHub:** [github.com/YOUR_GITHUB_USERNAME](https://github.com/YOUR_GITHUB_USERNAME) · [Get in touch](mailto:alfarobbs83@gmail.com)
+* **GitHub:** [github.com/Robin254-hash](https://github.com/robin254-hash) · [Get in touch](mailto:alfarobbs83@gmail.com)
