@@ -6,12 +6,9 @@ layout: home
 author_profile: true
 ---
 ---
-## "Junior Cybersecurity Analyst & IT Professional"
-## "Cybersecurity, IT support, systems administration and practical security learning."
+# **"Hi, I'm Alfayo Robin"**
+## **"Cybersecurity Analyst | Technical Support | IT Professional"**
 ---
-
-## Hi, Robin here
-
 I am a **Junior Cybersecurity Analyst and IT Professional** with a background in Computer Science and hands-on experience across ICT support, system administration and cybersecurity.
 
 I am building practical security skills through professional training, hands-on labs and technical projects, with a growing focus on **security monitoring, SOC operations, incident response and defensive security as well as penetration testing**.
