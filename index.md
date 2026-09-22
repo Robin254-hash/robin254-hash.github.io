@@ -6,10 +6,6 @@ layout: single
 author_profile: true
 ---
 ---
----
-layout: default
-title: Home | Alfayo Robin Boiyo
----
 # Hi, I'm Alfayo Robin Boiyo 👋
 
 ### **Cybersecurity & IT Operations Specialist**
