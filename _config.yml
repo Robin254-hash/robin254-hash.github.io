@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
  My Cybesecurity story.
 twitter_username: CyberRHub
 github_username: robin254-hash
-minimal_mistakes_skin: neon
+minimal_mistakes_skin: sunrise
 search: false
 
 # Build settings
