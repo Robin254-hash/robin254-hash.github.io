@@ -44,7 +44,7 @@ provisioning, access rights management, and technical escalations.
 -Configuring and deploying network infrastructure hardware, including IP phones and
 workplace workstations, while delivering Tier-1/2 technical support.
 
-**ICT Support Intern | Narobi Centre for International Arbitration - Nairobi, Kenya | May 2025- April 2026**
+**ICT Support Intern | Nairobi Centre for International Arbitration - Nairobi, Kenya | May 2025 - April 2026**
 
 -Supported end-user IT operations, resolving Windows OS, application, printer, and
 domain connectivity issues for internal staff.
