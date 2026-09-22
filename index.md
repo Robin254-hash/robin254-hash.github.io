@@ -6,12 +6,8 @@ layout: home
 author_profile: true
 ---
 ---
-layout: home
-author_profile: true
-title: "Junior Cybersecurity Analyst & IT Professional"
-excerpt: "Cybersecurity, IT support, systems administration and practical security learning."
-header:
-  overlay_color: "#000"
+## "Junior Cybersecurity Analyst & IT Professional"
+## "Cybersecurity, IT support, systems administration and practical security learning."
 ---
 
 ## Hi, Robin here
