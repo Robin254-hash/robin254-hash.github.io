@@ -28,12 +28,13 @@ Linux System Administration (CLI).
 ## **PROFESSIONAL EXPERIENCE**
 **Cybersecurity Intern | Energy and Petroleum Regulatory Authority - Nairobi, Kenya | May 2026 - Present**
 
--Monitoring network traffic and security events using NetWitness SIEM, triaging alerts under supervision.
+-Monitoring network traffic and security events using NetWitness SIEM, triaging alerts under supervision
 to accelerate incident response workflows.
 
 -Managing endpoint security operations via Bitdefender GravityZone, identifying
 threat vectors and ensuring proper antivirus agent deployment across organization
 hosts.
+
 -Executing system update schedules and software patch deployments using
 ManageEngine Patch Manager, systematically reducing vulnerability exposure.
 
@@ -54,7 +55,7 @@ to maintain uninterrupted local network uptime.
 -Administered user access policies within Active Directory and maintained the
 hardware/software inventory pipeline.
 
--Conductedd a cybersecurity awareness training to employees on phishing, social engineering and typosquatting attacks, identifiaction and avoidance.
+-Conducted a cybersecurity awareness training to employees on phishing, social engineering and typosquatting attacks, identifiaction and avoidance.
 
 ## **SECURITY PROJECTS AND LABS**
 **SOC Level 1- TryHackMe**
