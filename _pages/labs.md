@@ -1,10 +1,9 @@
 ---
-title: "Posts by Category"
+title: "🧪 Labs & Challenges"
 layout: single
 permalink: /labs/
 author_profile: true
 ---
-# Labs & Challenges
 
 This section documents my hands-on cybersecurity learning through security labs, practical exercises, training platforms and future CTF challenges.
 
@@ -24,7 +23,7 @@ This allows me to track not only what I completed, but also how my problem-solvi
 
 ## Hack The Box Academy
 
-### Windows Fundamentals
+### 🪟 Windows Fundamentals
 
 **Focus:** Windows systems, users, processes, services, networking and security fundamentals
 
@@ -36,7 +35,7 @@ Practical exercises designed to build familiarity with Windows from a security p
 
 ---
 
-### Linux Fundamentals
+### 🐧 Linux Fundamentals
 
 **Focus:** Linux command line, files, permissions, processes, services and networking
 
@@ -48,7 +47,7 @@ Hands-on exercises covering the Linux command line and fundamental system admini
 
 ---
 
-### Introduction to Web Applications
+### 🌐Introduction to Web Applications
 
 **Focus:** Web application architecture, front-end, back-end, servers and databases
 
@@ -60,7 +59,7 @@ This lab introduced how modern web applications work beyond what is visible in a
 
 ---
 
-### Getting Started
+### 🚀Getting Started
 
 **Focus:** Penetration-testing fundamentals, enumeration, exploitation and privilege escalation
 
@@ -74,7 +73,7 @@ The exercises required me to use Linux tools, interpret command output, follow c
 
 ---
 
-### Web Enumeration
+### 🔎 Web Enumeration
 
 **Focus:** Web reconnaissance, application discovery and information gathering
 
@@ -88,7 +87,7 @@ I practiced looking beyond the main page, examining application behavior and fol
 
 ---
 
-## Future CTF Challenges
+## 🎯 Future CTF Challenges
 
 As I begin completing CTF challenges, they will be added here using the same documentation structure.
 
