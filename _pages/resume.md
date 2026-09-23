@@ -6,7 +6,8 @@ title: "My Resume"
 
 ### **Nairobi-Kenya, Remote Anywhere**
 
-alfarobbs83@gmail.com  |  +25458869409 | &nbsp; [📥 Download PDF Resume](Alfayo_Robin_Security.pdf)
+alfarobbs83@gmail.com  |  +25458869409 | &nbsp; [📥 Download Resume](./assets/AlfayoRobin.pdf) 
+
 
 Computer Science graduate and Cybersecurity Specialist with hands-on experience in SOC operations, endpoint security, SIEM event monitoring, and enterprise IT support in public sector environments. Skilled in incident identification, vulnerability assessments, and system patching using tools like NetWitness SIEM, Bitdefender GravityZone, and ManageEngine.
 
