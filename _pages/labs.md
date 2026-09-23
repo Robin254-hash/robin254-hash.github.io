@@ -6,7 +6,6 @@ author_profile: true
 ---
 
 This section documents my hands-on cybersecurity learning through security labs, practical exercises, training platforms and future CTF challenges.
-
 Rather than documenting only the final answers, I focus on the process I followed: understanding the objective, gathering information, choosing an approach, using the appropriate tools, troubleshooting problems and documenting evidence.
 
 My current practical learning includes **Hack The Box Academy**, with future challenges and CTFs to be added as I continue developing my skills.
@@ -31,7 +30,7 @@ Practical exercises designed to build familiarity with Windows from a security p
 
 **Status:** Completed
 
-[View Lab Write-up →]
+[Write up](./) 
 
 ---
 
@@ -43,7 +42,7 @@ Hands-on exercises covering the Linux command line and fundamental system admini
 
 **Status:** Completed
 
-[View Lab Write-up →]
+[Write up](./) 
 
 ---
 
@@ -55,7 +54,7 @@ This lab introduced how modern web applications work beyond what is visible in a
 
 **Status:** Completed
 
-[View Lab Write-up →]
+[Write up](./) 
 
 ---
 
@@ -69,7 +68,7 @@ The exercises required me to use Linux tools, interpret command output, follow c
 
 **Status:** In progress / progressively documented
 
-[View Lab Write-up →]
+[Write up](./) 
 
 ---
 
@@ -83,7 +82,7 @@ I practiced looking beyond the main page, examining application behavior and fol
 
 **Status:** In progress / documented
 
-[View Lab Write-up →]
+[Write up](./) 
 
 ---
 
