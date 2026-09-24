@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Alfayo Robin"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/logo.jpg"
   bio    : "Cyber security and IT professional."
   links:
    # - label: "Website"
