@@ -18,7 +18,7 @@ html {
 
 body {
   /* Replace 'your-background-image.jpg' with your actual image filename or URL */
-  background-image: url('/assets/images/your-background-image.jpg'); 
+  background-image: url('/assets/images/bkg.jpg'); 
   
   /* These rules make sure the background stays fixed and stretches to fill the screen nicely */
   background-attachment: fixed;
