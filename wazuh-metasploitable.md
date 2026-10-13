@@ -5,13 +5,13 @@ permalink: /projects/wazuh-metasploitable/
 author_profile: true
 ---
 
-**Status: In progress**  
+**Status: Complete**  
 **Environment:** VirtualBox  
-**Planned components:** Wazuh, Kali Linux, Metasploitable 2
+**Components:** Wazuh, Kali Linux, Metasploitable 2
 
 ## 1. Overview
 
-This project documents the development of an isolated cybersecurity home lab for practicing security monitoring and investigation. Wazuh will serve as the central monitoring platform, Kali Linux will be used for authorized testing, and Metasploitable 2 will act as an intentionally vulnerable target.
+This project documents the development of an isolated cybersecurity home lab for practicing security monitoring and investigation. Wazuh will serve as the central monitoring platform, Kali Linux will be used for authorized testing, and Metasploitable 3 as an intentionally vulnerable target.
 
 The goal is to learn how to build the environment, validate network connectivity, generate controlled activity, and investigate the logs or alerts that are actually available.
 
@@ -27,7 +27,7 @@ The goal is to learn how to build the environment, validate network connectivity
 
 ## 3. Architecture
 
-Planned layout:
+Layout:
 
 ```text
                     VirtualBox
@@ -35,20 +35,18 @@ Planned layout:
               Isolated Cyber Lab Network
                  /         |         \
                 /          |          \
-           Kali Linux     Wazuh    Metasploitable 2
+           Kali Linux     Wazuh    Metasploitable 3
            Test host      SIEM      Vulnerable target
 ```
-
-The exact adapter configuration and IP addresses will be documented after connectivity is confirmed.
 
 ## 4. Environment and setup notes
 
 | Component | Purpose | Progress |
 |---|---|---|
-| Wazuh VM | Central security monitoring | Installed; dashboard connectivity being checked |
-| Kali Linux VM | Authorized testing and diagnostics | To be connected to the lab network |
-| Metasploitable 2 VM | Intentionally vulnerable target | To be deployed/configured |
-| VirtualBox network | Isolated communication between VMs | To be validated |
+| Wazuh VM | Central security monitoring | Installed; dashboard connectivity Completed |
+| Kali Linux VM | Authorized testing and diagnostics | Done |
+| Metasploitable 3 VM | Intentionally vulnerable target | Deployed|
+| VirtualBox network | Isolated communication between VMs | Validated |
 
 ### Safety
 
