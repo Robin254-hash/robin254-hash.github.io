@@ -1,111 +1,86 @@
 ---
-title: "🧪 Labs & Challenges"
+title: "Labs & Challenges"
 layout: single
 permalink: /labs/
 author_profile: true
 ---
 
-This section documents my hands-on cybersecurity learning through security labs, practical exercises, training platforms and future CTF challenges.
-Rather than documenting only the final answers, I focus on the process I followed: understanding the objective, gathering information, choosing an approach, using the appropriate tools, troubleshooting problems and documenting evidence.
+This page documents my hands-on cybersecurity learning. Each write-up aims to explain the objective, my approach, the tools used, what I observed, challenges I encountered, and what I learned.
 
-My current practical learning includes **Hack The Box Academy**, with future challenges and CTFs to be added as I continue developing my skills.
+I distinguish between completed learning modules and work that is still in progress. Screenshots and command output will be added as I capture and verify them.
 
-## What I Document
+## Home lab
 
-Each challenge is structured around:
+### 🛡️ Wazuh + Metasploitable SOC Lab
+**Focus:** SIEM, virtual networking, security monitoring, reconnaissance, alert investigation  
+**Status:** In progress
 
-**Problem / Objective → Reconnaissance → Approach → Tools → Evidence → Challenges → Lessons Learned**
+I am building an isolated VirtualBox lab with Wazuh, Kali Linux, and Metasploitable 2. The next steps are to resolve dashboard connectivity, confirm communication between the lab VMs, and test which events can be collected and investigated.
 
-This allows me to track not only what I completed, but also how my problem-solving and security analysis skills develop over time.
-
----
+[Read the lab plan and progress →](/projects/wazuh-metasploitable/)
 
 ## Hack The Box Academy
 
 ### 🪟 Windows Fundamentals
+**Focus:** Windows environment, processes, services, users, and system information  
+**Status:** Completed learning module
 
-**Focus:** Windows systems, users, processes, services, networking and security fundamentals
-
-Practical exercises designed to build familiarity with Windows from a security perspective. The lab helped me understand how to navigate a Windows environment, investigate system information and recognize information that can be useful during security analysis.
-
-**Status:** Completed
-
-[Write up](./) 
-
----
+Practiced navigating a Windows environment and reviewing system information that can support troubleshooting and security analysis.
 
 ### 🐧 Linux Fundamentals
+**Focus:** Linux CLI, files, permissions, processes, services, and networking  
+**Status:** Completed learning module
 
-**Focus:** Linux command line, files, permissions, processes, services and networking
+Practiced common terminal commands, file and directory navigation, permissions, process and service checks, and basic network inspection.
 
-Hands-on exercises covering the Linux command line and fundamental system administration concepts. I worked with files and directories, permissions, processes, services and network information while becoming more comfortable working from the terminal.
+### 🌐 Introduction to Web Applications
+**Focus:** Front-end and back-end components, web servers, application logic, and databases  
+**Status:** Completed learning module
 
-**Status:** Completed
+Built a foundational understanding of how browser requests interact with web servers, application logic, and databases, and why each layer matters when assessing web security.
 
-[Write up](./) 
+### 🚀 Getting Started
+**Focus:** Penetration-testing workflow, enumeration, exploitation concepts, and privilege escalation  
+**Status:** In progress / notes being developed
 
----
+Working through the stages of a controlled assessment, interpreting tool output, researching unfamiliar commands, and documenting both successful steps and dead ends.
 
-### 🌐Introduction to Web Applications
+### 🌐 Introduction to Networking
+**Focus:** Networking concepts, subnetting, services, vendor-specific information, key exchange, and cryptography  
+**Status:** Notes in progress
 
-**Focus:** Web application architecture, front-end, back-end, servers and databases
+Developing a stronger foundation in how systems communicate and how networking and cryptographic concepts support security.
 
-This lab introduced how modern web applications work beyond what is visible in a browser. I explored the relationship between the client, web server, application logic and database and began looking at these components from a security perspective.
+### 🔎 Vulnerability Assessment
+**Focus:** Vulnerability scanning, Nessus, interpreting findings, and remediation  
+**Status:** Notes in progress
 
-**Status:** Completed
+Learning how vulnerability assessment tools identify potential weaknesses and how findings should be reviewed rather than treated as confirmed exploitable vulnerabilities.
 
-[Write up](./) 
+## TryHackMe
 
----
+### 🐍 Python Basics
+**Focus:** Python fundamentals for automation and problem-solving  
+**Status:** Learning notes
 
-### 🚀Getting Started
+### 🕵️ Passive Reconnaissance
+**Focus:** Gathering information from publicly available sources  
+**Status:** Learning notes
 
-**Focus:** Penetration-testing fundamentals, enumeration, exploitation and privilege escalation
+### 🧠 Threat Intelligence Tools
+**Focus:** Exploring threat-intelligence resources and interpreting indicators and context  
+**Status:** Learning notes
 
-A practical introduction to working through a target from initial connection and enumeration through gaining access and investigating privilege escalation opportunities.
+## My write-up format
 
-The exercises required me to use Linux tools, interpret command output, follow clues and troubleshoot when an expected approach did not work.
+Each detailed write-up will use this structure:
 
-**Status:** In progress / progressively documented
+1. **Objective** — what the exercise was intended to teach.
+2. **Approach** — the steps I took and why.
+3. **Tools and commands** — what I used and what the output meant.
+4. **Evidence** — screenshots or sanitized output captured from my own lab.
+5. **Challenges** — errors, dead ends, and how I investigated them.
+6. **Lessons learned** — what I can explain or do better after the exercise.
+7. **Security relevance** — how the lesson applies to monitoring, investigation, or defensive practice.
 
-[Write up](./) 
-
----
-
-### 🔎 Web Enumeration
-
-**Focus:** Web reconnaissance, application discovery and information gathering
-
-Practical exercises involving the enumeration of a web application and investigation of information exposed by the target.
-
-I practiced looking beyond the main page, examining application behavior and following clues discovered during enumeration.
-
-**Status:** In progress / documented
-
-[Write up](./) 
-
----
-
-## 🎯 Future CTF Challenges
-
-As I begin completing CTF challenges, they will be added here using the same documentation structure.
-
-Areas will include:
-
-* Web security
-* Linux
-* Windows
-* Enumeration
-* Privilege escalation
-* Authentication
-* Cryptography
-* Forensics
-* Network security
-
-## Learning Approach
-
-My goal with these labs is not simply to collect completed exercises. I want to develop the habit of asking:
-
-> **What do I know? What information am I missing? What can I test? What does the result tell me? What should I investigate next?**
-
-This approach is helping me develop the practical problem-solving skills needed for cybersecurity and SOC-related work.
+*Training notes are for learning and portfolio documentation. Any testing against vulnerable systems is performed only in authorized, isolated environments.*
