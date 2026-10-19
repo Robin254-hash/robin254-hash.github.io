@@ -1,0 +1,180 @@
+
+---
+import Layout from "@/layouts/Layout.astro";
+import Nav from "@/components/nav.astro";
+import Footer from "@/components/footer.astro";
+---
+
+<Layout title="Metasploitable Vulnerability Lab | Alfayo Robin">
+  <Nav />
+
+  <main class="mx-auto max-w-5xl px-6 py-12 text-[var(--white)]">
+    <a
+      href="/#projects"
+      class="mb-8 inline-block text-sm text-[var(--sec)] transition hover:opacity-80"
+    >
+      ← Back to Projects
+    </a>
+
+    <header class="mb-12">
+      <p class="mb-3 text-sm uppercase tracking-[0.2em] text-[var(--sec)]">
+        Cybersecurity • Vulnerability Assessment
+      </p>
+
+      <h1 class="mb-5 text-3xl font-bold md:text-5xl">
+        Metasploitable Vulnerability Lab
+      </h1>
+
+      <p class="max-w-3xl text-base leading-7 opacity-80 md:text-lg">
+        A practical learning environment for understanding vulnerable systems,
+        service discovery, and the importance of identifying and reducing
+        security weaknesses.
+      </p>
+
+      <div class="mt-6 flex flex-wrap gap-2">
+        <span class="rounded-full border border-white/20 px-3 py-1 text-sm">Metasploitable</span>
+        <span class="rounded-full border border-white/20 px-3 py-1 text-sm">VirtualBox</span>
+        <span class="rounded-full border border-white/20 px-3 py-1 text-sm">Kali Linux</span>
+        <span class="rounded-full border border-white/20 px-3 py-1 text-sm">Vulnerability Assessment</span>
+      </div>
+    </header>
+
+    <section class="mb-12">
+      <h2 class="mb-4 text-2xl font-semibold">1. Project Overview</h2>
+      <p class="leading-7 opacity-85">
+        The objective of this lab was to become familiar with vulnerable
+        systems and the process security analysts use to identify potential
+        weaknesses. Metasploitable provides a deliberately vulnerable target
+        that can be used for safe, controlled security testing in an isolated
+        environment.
+      </p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="mb-4 text-2xl font-semibold">2. Lab Environment</h2>
+      <ul class="list-disc space-y-2 pl-6 leading-7 opacity-85">
+        <li><strong>Virtualization:</strong> Oracle VirtualBox.</li>
+        <li><strong>Testing system:</strong> Kali Linux.</li>
+        <li><strong>Target:</strong> Metasploitable virtual machine.</li>
+        <li><strong>Purpose:</strong> Learn service discovery and vulnerability assessment in a controlled lab.</li>
+      </ul>
+      <p class="mt-4 text-sm opacity-70">
+        Keep this section accurate to your setup. Add the network mode and
+        machine IP addresses only if you have confirmed them, and avoid
+        publishing any sensitive information.
+      </p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="mb-4 text-2xl font-semibold">3. Setup and Methodology</h2>
+      <ol class="list-decimal space-y-4 pl-6 leading-7 opacity-85">
+        <li>
+          <strong>Prepared the virtual environment.</strong>
+          VirtualBox and Kali Linux were already installed. The lab work
+          continued with preparing the Metasploitable target machine.
+        </li>
+        <li>
+          <strong>Configured the target.</strong>
+          The target was prepared for testing within a controlled virtual
+          environment. The network should be isolated from untrusted systems.
+        </li>
+        <li>
+          <strong>Checked connectivity.</strong>
+          Confirmed that the testing machine and target could communicate
+          within the lab before attempting further assessment.
+        </li>
+        <li>
+          <strong>Explored exposed services.</strong>
+          The next assessment step is to identify listening services and
+          understand what they reveal about the target. Include the commands
+          and results here only if you actually ran them.
+        </li>
+        <li>
+          <strong>Reviewed potential weaknesses.</strong>
+          Observations can be used to understand why outdated software,
+          unnecessary services, and weak configurations increase security risk.
+        </li>
+      </ol>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="mb-4 text-2xl font-semibold">4. Screenshots and Evidence</h2>
+      <p class="mb-6 leading-7 opacity-85">
+        Add your own screenshots to demonstrate the environment and the steps
+        you completed. Captions should explain what each image proves.
+      </p>
+
+      <div class="grid gap-6 md:grid-cols-2">
+        <figure class="overflow-hidden rounded-xl border border-white/15 p-3">
+          <div class="flex min-h-40 items-center justify-center rounded-lg bg-white/5 p-6 text-center">
+            <p class="text-sm opacity-60">Screenshot 1: Metasploitable VM</p>
+          </div>
+          <figcaption class="mt-3 text-sm opacity-75">
+            The target virtual machine configured for lab use.
+          </figcaption>
+        </figure>
+
+        <figure class="overflow-hidden rounded-xl border border-white/15 p-3">
+          <div class="flex min-h-40 items-center justify-center rounded-lg bg-white/5 p-6 text-center">
+            <p class="text-sm opacity-60">Screenshot 2: Network connectivity</p>
+          </div>
+          <figcaption class="mt-3 text-sm opacity-75">
+            Evidence that the lab systems can communicate, if tested.
+          </figcaption>
+        </figure>
+
+        <figure class="overflow-hidden rounded-xl border border-white/15 p-3">
+          <div class="flex min-h-40 items-center justify-center rounded-lg bg-white/5 p-6 text-center">
+            <p class="text-sm opacity-60">Screenshot 3: Service discovery</p>
+          </div>
+          <figcaption class="mt-3 text-sm opacity-75">
+            Record the actual service-discovery output if you performed this step.
+          </figcaption>
+        </figure>
+
+        <figure class="overflow-hidden rounded-xl border border-white/15 p-3">
+          <div class="flex min-h-40 items-center justify-center rounded-lg bg-white/5 p-6 text-center">
+            <p class="text-sm opacity-60">Screenshot 4: Assessment findings</p>
+          </div>
+          <figcaption class="mt-3 text-sm opacity-75">
+            Show verified findings and explain their potential security impact.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="mb-4 text-2xl font-semibold">5. Challenges and Considerations</h2>
+      <p class="leading-7 opacity-85">
+        Running vulnerable systems requires careful network isolation and
+        correct virtual machine configuration. Connectivity problems can
+        prevent a security assessment from proceeding, so the virtual network
+        and target availability should be checked first. Document the specific
+        problems you encountered and how you resolved them.
+      </p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="mb-4 text-2xl font-semibold">6. Skills and Lessons Learned</h2>
+      <ul class="list-disc space-y-2 pl-6 leading-7 opacity-85">
+        <li>Understanding the purpose of a deliberately vulnerable target.</li>
+        <li>Learning how virtual networking supports a controlled security lab.</li>
+        <li>Understanding the role of service discovery in vulnerability assessment.</li>
+        <li>Connecting technical findings to security risks and remediation.</li>
+      </ul>
+    </section>
+
+    <section class="rounded-xl border border-white/15 p-6">
+      <h2 class="mb-3 text-2xl font-semibold">7. Conclusion</h2>
+      <p class="leading-7 opacity-85">
+        This lab provides a foundation for learning how security weaknesses can
+        be investigated in a controlled environment. It also highlights the
+        importance of understanding exposed services, verifying findings, and
+        applying appropriate security controls. Further testing and documented
+        results can build on this foundation as the lab develops.
+      </p>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

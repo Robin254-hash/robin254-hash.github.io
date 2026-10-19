@@ -1,0 +1,234 @@
+
+---
+import Layout from "@/layouts/Layout.astro";
+import Nav from "@/components/nav.astro";
+import Footer from "@/components/footer.astro";
+---
+
+<Layout title="Hack The Box & TryHackMe Labs | Alfayo Robin">
+  <Nav />
+
+  <main class="mx-auto max-w-5xl px-6 py-12 text-[var(--white)]">
+    <a
+      href="/#projects"
+      class="mb-8 inline-block text-sm text-[var(--sec)] transition hover:opacity-80"
+    >
+      ← Back to Projects
+    </a>
+
+    <header class="mb-12">
+      <p class="mb-3 text-sm uppercase tracking-[0.2em] text-[var(--sec)]">
+        Cybersecurity • Continuous Learning
+      </p>
+
+      <h1 class="mb-5 text-3xl font-bold md:text-5xl">
+        Hack The Box & TryHackMe Labs
+      </h1>
+
+      <p class="max-w-3xl text-base leading-7 opacity-80 md:text-lg">
+        Hands-on cybersecurity learning through guided labs and practical
+        exercises covering networking, Linux, Windows, web applications,
+        reconnaissance, and vulnerability assessment.
+      </p>
+
+      <div class="mt-6 flex flex-wrap gap-2">
+        <span class="rounded-full border border-white/20 px-3 py-1 text-sm">Hack The Box</span>
+        <span class="rounded-full border border-white/20 px-3 py-1 text-sm">TryHackMe</span>
+        <span class="rounded-full border border-white/20 px-3 py-1 text-sm">Linux</span>
+        <span class="rounded-full border border-white/20 px-3 py-1 text-sm">Networking</span>
+        <span class="rounded-full border border-white/20 px-3 py-1 text-sm">Reconnaissance</span>
+      </div>
+    </header>
+
+    <section class="mb-12">
+      <h2 class="mb-4 text-2xl font-semibold">1. Overview</h2>
+      <p class="leading-7 opacity-85">
+        I use Hack The Box Academy and TryHackMe to strengthen my cybersecurity
+        knowledge through structured learning and practical exercises. The
+        activities help me understand how systems communicate, how services
+        can be investigated, and how security weaknesses may be identified.
+        I document key commands, observations, challenges, and lessons learned
+        as I progress.
+      </p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="mb-6 text-2xl font-semibold">2. Hack The Box</h2>
+
+      <div class="space-y-5">
+        <article class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 text-lg font-semibold">Linux Fundamentals</h3>
+          <p class="leading-7 opacity-85">
+            Practised navigating the Linux command line and explored files,
+            directories, permissions, processes, services, and basic networking
+            commands. This provides a foundation for working with Linux systems
+            during investigations and troubleshooting.
+          </p>
+          <p class="mt-3 text-sm opacity-70">
+            Skills: Linux CLI, file permissions, processes, networking basics.
+          </p>
+        </article>
+
+        <article class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 text-lg font-semibold">Windows Fundamentals</h3>
+          <p class="leading-7 opacity-85">
+            Studied Windows system components, common administration features,
+            and tools used to inspect and manage a Windows environment.
+            These concepts are relevant to endpoint support and security monitoring.
+          </p>
+          <p class="mt-3 text-sm opacity-70">
+            Skills: Windows administration concepts, system tools, troubleshooting.
+          </p>
+        </article>
+
+        <article class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 text-lg font-semibold">Getting Started</h3>
+          <p class="leading-7 opacity-85">
+            Explored foundational penetration-testing concepts, common security
+            tools, reconnaissance, and the general process of assessing a
+            target in a controlled training environment.
+          </p>
+          <p class="mt-3 text-sm opacity-70">
+            Skills: Security methodology, enumeration concepts, command-line tools.
+          </p>
+        </article>
+
+        <article class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 text-lg font-semibold">Introduction to Networking</h3>
+          <p class="leading-7 opacity-85">
+            Studied networking concepts such as IP addressing, subnetting,
+            protocols, DNS, and how devices communicate. These topics support
+            troubleshooting and understanding network activity.
+          </p>
+          <p class="mt-3 text-sm opacity-70">
+            Skills: TCP/IP, addressing, subnetting, protocols, DNS.
+          </p>
+        </article>
+
+        <article class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 text-lg font-semibold">Web Fundamentals</h3>
+          <p class="leading-7 opacity-85">
+            Learned about web applications, client-server communication,
+            front-end and back-end components, databases, and web enumeration.
+            This helps build an understanding of how web applications work and
+            where security issues can arise.
+          </p>
+          <p class="mt-3 text-sm opacity-70">
+            Skills: HTTP concepts, web architecture, application enumeration.
+          </p>
+        </article>
+
+        <article class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 text-lg font-semibold">Vulnerability Assessment</h3>
+          <p class="leading-7 opacity-85">
+            Studied vulnerability assessment concepts and explored tools such
+            as Nessus. The module introduced how systems can be assessed for
+            known weaknesses and why findings need to be reviewed and prioritised.
+          </p>
+          <p class="mt-3 text-sm opacity-70">
+            Skills: Vulnerability scanning concepts, Nessus, findings review.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="mb-6 text-2xl font-semibold">3. TryHackMe</h2>
+
+      <div class="space-y-5">
+        <article class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 text-lg font-semibold">Python Basics</h3>
+          <p class="leading-7 opacity-85">
+            Worked through introductory Python concepts, including basic
+            syntax, variables, data types, and simple programming logic.
+            Python is useful for scripting repetitive tasks and supporting
+            cybersecurity analysis.
+          </p>
+          <p class="mt-3 text-sm opacity-70">
+            Skills: Python fundamentals, problem-solving, basic scripting.
+          </p>
+        </article>
+
+        <article class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 text-lg font-semibold">Passive Reconnaissance</h3>
+          <p class="leading-7 opacity-85">
+            Studied how publicly available information can be gathered about
+            a target without directly interacting with its systems. This
+            introduced information sources and techniques used during the
+            reconnaissance stage of security assessments.
+          </p>
+          <p class="mt-3 text-sm opacity-70">
+            Skills: OSINT concepts, information gathering, reconnaissance.
+          </p>
+        </article>
+
+        <article class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 text-lg font-semibold">Threat Intelligence Tools</h3>
+          <p class="leading-7 opacity-85">
+            Explored how threat intelligence resources can help investigate
+            indicators and understand potential malicious activity. This
+            supports the wider process of collecting context before making
+            security decisions.
+          </p>
+          <p class="mt-3 text-sm opacity-70">
+            Skills: Threat intelligence concepts, indicator research, analysis.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="mb-4 text-2xl font-semibold">4. Evidence and Documentation</h2>
+      <p class="leading-7 opacity-85">
+        I maintain notes on the modules I study, including relevant commands,
+        their purpose, important outputs, challenges, and what I learned from
+        each exercise. Screenshots can be added to demonstrate completed
+        activities and key findings.
+      </p>
+
+      <div class="mt-6 grid gap-6 md:grid-cols-2">
+        <figure class="rounded-xl border border-white/15 p-4">
+          <div class="flex min-h-36 items-center justify-center rounded-lg bg-white/5 p-6 text-center">
+            <p class="text-sm opacity-60">Add a Hack The Box screenshot</p>
+          </div>
+          <figcaption class="mt-3 text-sm opacity-75">
+            Example: a completed module or terminal output from a lab.
+          </figcaption>
+        </figure>
+
+        <figure class="rounded-xl border border-white/15 p-4">
+          <div class="flex min-h-36 items-center justify-center rounded-lg bg-white/5 p-6 text-center">
+            <p class="text-sm opacity-60">Add a TryHackMe screenshot</p>
+          </div>
+          <figcaption class="mt-3 text-sm opacity-75">
+            Example: a completed room or evidence of a learning exercise.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="mb-4 text-2xl font-semibold">5. Challenges and Lessons Learned</h2>
+      <p class="leading-7 opacity-85">
+        Some exercises required additional research to understand unfamiliar
+        commands, interpret output, and work through configuration issues.
+        Reviewing documentation and practising the concepts helped reinforce
+        my understanding. The experience has also shown me the importance of
+        taking clear notes, verifying results, and explaining technical
+        findings in simple language.
+      </p>
+    </section>
+
+    <section class="rounded-xl border border-white/15 p-6">
+      <h2 class="mb-3 text-2xl font-semibold">6. Conclusion</h2>
+      <p class="leading-7 opacity-85">
+        These labs are helping me build a foundation in networking, operating
+        systems, reconnaissance, vulnerability assessment, and security
+        analysis. I intend to continue practising, documenting my results, and
+        applying what I learn to my home lab and cybersecurity development.
+      </p>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
