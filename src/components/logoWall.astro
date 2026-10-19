@@ -1,19 +1,16 @@
 ---
 const technologies = [
-  "astro",
-  "vue",
-  "react",
-  "typeScript",
-  "tailwindcss",
-  "next",
-  "nodejs",
-  "HTML5",
-  "CSS3",
-  "javaScript",
+  "wazuh",
+  "netwitness",
+  "bitdefender",
+  "manageengine",
+  "kalilinux",
+  "wireshark",
+  "metasploit",
+  "linux",
+  "python",
   "git",
-  "supabase",
-  "mysql",
-  "bash",
+
 ];
 ---
 
@@ -29,13 +26,15 @@ const technologies = [
           aria-hidden={index >= technologies.length ? "true" : "false"}
         >
           <img
-            src={`/svg/${tech}.svg`}
-            alt={tech}
-            class="h-7 w-auto object-contain transition-transform group-hover:scale-110 opacity-60"
-            width="30"
-            height="30"
-            loading={index < technologies.length ? "eager" : "lazy"}
-            decoding="async"
+  src={`/svg/${tech}.svg`}
+  alt=""
+  aria-hidden="true"
+  class="h-7 w-auto object-contain transition-transform group-hover:scale-110 opacity-60"
+  width="30"
+  height="30"
+  loading={index < technologies.length ? "eager" : "lazy"}
+  decoding="async"
+  onerror="this.style.display='none'"
           />
           <span class="text-lg font-medium text-[var(--white-icon)] whitespace-nowrap">
             {tech.charAt(0).toUpperCase() + tech.slice(1)}
