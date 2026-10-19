@@ -1,3 +1,4 @@
+
 ---
 import Layout from "@/layouts/Layout.astro";
 import Nav from "@/components/nav.astro";
@@ -17,7 +18,7 @@ import Footer from "@/components/footer.astro";
 
     <header class="mb-12">
       <p class="mb-3 text-sm uppercase tracking-[0.2em] text-[var(--sec)]">
-        Cybersecurity • Home Lab
+        Cybersecurity • Security Operations • Home Lab
       </p>
 
       <h1 class="mb-5 text-3xl font-bold md:text-5xl">
@@ -25,152 +26,272 @@ import Footer from "@/components/footer.astro";
       </h1>
 
       <p class="max-w-3xl text-base leading-7 opacity-80 md:text-lg">
-        A hands-on lab exploring security monitoring with Wazuh, using a
-        virtual environment to generate and review security events.
+        A hands-on security monitoring lab built with Wazuh, Kali Linux and
+        Metasploitable 3 in VirtualBox. I configured connectivity, generated
+        controlled security activity and observed the resulting alerts in Wazuh.
       </p>
 
       <div class="mt-6 flex flex-wrap gap-2">
-        <span class="rounded-full border border-white/20 px-3 py-1 text-sm">Wazuh</span>
-        <span class="rounded-full border border-white/20 px-3 py-1 text-sm">VirtualBox</span>
-        <span class="rounded-full border border-white/20 px-3 py-1 text-sm">Kali Linux</span>
-        <span class="rounded-full border border-white/20 px-3 py-1 text-sm">Security Monitoring</span>
+        {["Wazuh SIEM", "VirtualBox", "Kali Linux", "Metasploitable 3", "Nmap", "Hydra", "Log Analysis"].map((item) => (
+          <span class="rounded-full border border-white/20 px-3 py-1 text-sm">
+            {item}
+          </span>
+        ))}
       </div>
     </header>
 
     <section class="mb-12">
       <h2 class="mb-4 text-2xl font-semibold">1. Project Overview</h2>
       <p class="leading-7 opacity-85">
-        The aim of this project was to gain practical experience with a Security
-        Information and Event Management (SIEM) platform. I installed Wazuh in
-        VirtualBox, configured the lab environment, and worked through
-        connectivity and setup issues before accessing the dashboard and
-        reviewing generated security alerts.
+        The objective of this project was to gain practical experience with
+        security monitoring and event detection using Wazuh. I set up the lab
+        in VirtualBox, worked through network connectivity issues, connected
+        the monitored environment and explored alerts generated during
+        controlled testing.
+      </p>
+      <p class="mt-4 leading-7 opacity-85">
+        This exercise helped me understand how a security analyst can use a
+        SIEM platform to identify suspicious activity, review event details
+        and begin investigating potential security incidents.
       </p>
     </section>
 
     <section class="mb-12">
-      <h2 class="mb-4 text-2xl font-semibold">2. Lab Environment</h2>
-      <ul class="list-disc space-y-2 pl-6 leading-7 opacity-85">
-        <li><strong>Virtualization:</strong> Oracle VirtualBox.</li>
-        <li><strong>SIEM platform:</strong> Wazuh.</li>
-        <li><strong>Testing environment:</strong> Kali Linux and Metasploitable, where applicable.</li>
-        <li><strong>Objective:</strong> Access the Wazuh dashboard and review security events generated in the lab.</li>
-      </ul>
-      <p class="mt-4 text-sm opacity-70">
-        Note: Update this list to reflect the exact virtual machines and network
-        configuration you used.
+      <h2 class="mb-4 text-2xl font-semibold">2. Lab Architecture</h2>
+
+      <div class="grid gap-4 sm:grid-cols-2">
+        <div class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 font-semibold">Wazuh</h3>
+          <p class="text-sm leading-6 opacity-80">
+            Central security monitoring platform used to view the dashboard
+            and review generated security alerts.
+          </p>
+        </div>
+
+        <div class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 font-semibold">Kali Linux</h3>
+          <p class="text-sm leading-6 opacity-80">
+            Testing machine used to generate controlled network scanning
+            and security testing activity within the lab.
+          </p>
+        </div>
+
+        <div class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 font-semibold">Metasploitable 3</h3>
+          <p class="text-sm leading-6 opacity-80">
+            Intentionally vulnerable target machine used for authorized
+            security testing in the isolated virtual environment.
+          </p>
+        </div>
+
+        <div class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 font-semibold">Oracle VirtualBox</h3>
+          <p class="text-sm leading-6 opacity-80">
+            Virtualization platform used to run the lab machines and
+            configure their virtual network connectivity.
+          </p>
+        </div>
+      </div>
+
+      <p class="mt-4 text-sm leading-6 opacity-70">
+        The exercises were performed in my own lab environment. Virtual
+        machine network settings were configured to enable the required
+        communication between the systems.
       </p>
     </section>
 
     <section class="mb-12">
       <h2 class="mb-4 text-2xl font-semibold">3. Setup and Configuration</h2>
+
       <ol class="list-decimal space-y-4 pl-6 leading-7 opacity-85">
         <li>
-          <strong>Prepared the environment.</strong>
-          VirtualBox and Kali Linux were already installed, so I continued with
-          setting up the Wazuh virtual machine.
+          <strong>Prepared the virtual environment.</strong>
+          VirtualBox and Kali Linux were already installed, so I continued
+          with the Wazuh setup and preparation of the Metasploitable 3 target.
         </li>
         <li>
-          <strong>Installed Wazuh.</strong>
-          I followed the Wazuh installation process and recorded the network
-          details needed to reach its dashboard.
+          <strong>Configured network connectivity.</strong>
+          I checked the virtual machine network adapter settings and IP
+          addresses while troubleshooting access to the Wazuh dashboard.
         </li>
         <li>
-          <strong>Checked network connectivity.</strong>
-          I investigated why the dashboard IP address was not initially
-          accessible, including checking the virtual machine's network adapter
-          configuration.
+          <strong>Verified communication.</strong>
+          I used connectivity checks, including ping, to confirm communication
+          between the lab machines where required.
         </li>
         <li>
-          <strong>Accessed the dashboard.</strong>
-          After troubleshooting the setup, I reached the Wazuh dashboard and
-          continued exploring its monitoring features.
+          <strong>Connected the monitored system.</strong>
+          I confirmed that Metasploitable 3 appeared as a Wazuh agent and
+          continued troubleshooting the monitoring setup.
         </li>
         <li>
-          <strong>Reviewed security events.</strong>
-          I generated or observed lab activity and reviewed the resulting
-          alerts in Wazuh.
+          <strong>Accessed the Wazuh dashboard.</strong>
+          After resolving the initial connectivity issues, I accessed the
+          dashboard and explored the available monitoring information.
         </li>
       </ol>
     </section>
 
     <section class="mb-12">
-      <h2 class="mb-4 text-2xl font-semibold">4. Screenshots and Evidence</h2>
+      <h2 class="mb-4 text-2xl font-semibold">4. Detection Exercises</h2>
+
+      <div class="space-y-6">
+        <div class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 text-lg font-semibold">Nmap network scanning</h3>
+          <p class="leading-7 opacity-85">
+            I performed an Nmap scan within the lab and observed security
+            alerts in Wazuh associated with the scanning activity. This
+            demonstrated how network reconnaissance can generate events
+            that are useful for security monitoring.
+          </p>
+          <p class="mt-3 text-sm leading-6 opacity-70">
+            Analyst relevance: review the alert timestamp, affected agent,
+            source information and rule details to understand what activity
+            was detected.
+          </p>
+        </div>
+
+        <div class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 text-lg font-semibold">Hydra testing activity</h3>
+          <p class="leading-7 opacity-85">
+            I also generated controlled Hydra activity in the lab and
+            observed related security events in Wazuh. This provided exposure
+            to monitoring activity that may be associated with repeated
+            authentication attempts.
+          </p>
+          <p class="mt-3 text-sm leading-6 opacity-70">
+            Analyst relevance: examine the available event details and
+            determine whether the activity indicates repeated login attempts,
+            which account or service was involved, and whether further
+            investigation is required.
+          </p>
+        </div>
+      </div>
+
+      <p class="mt-4 text-sm leading-6 opacity-70">
+        These exercises demonstrate alert visibility, not proof that every
+        attempt was successful or that a complete incident investigation
+        was performed.
+      </p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="mb-4 text-2xl font-semibold">5. Screenshots and Evidence</h2>
+
       <p class="mb-6 leading-7 opacity-85">
-       Screenshots demonstrating the installation, network
-        configuration, dashboard access, and alerts observed during testing.
-        
+        The following screenshots are from the lab. They provide visual
+        evidence of the Wazuh dashboard and the monitoring work carried
+        out during testing.
       </p>
 
       <div class="grid gap-6 md:grid-cols-2">
         <figure class="overflow-hidden rounded-xl border border-white/15 p-3">
-          <div class="flex min-h-40 items-center justify-center rounded-lg bg-white/5 p-6 text-center">
-            <p class="text-sm opacity-60">Screenshot 1: Wazuh VM or installation</p>
-          </div>
-          <figcaption class="mt-3 text-sm opacity-75">
-            Evidence of the Wazuh virtual machine and installation.
+          <img
+            src="/images/Projects/Wazuh/wazuh1.png"
+            alt="Wazuh SIEM dashboard from the home lab"
+            loading="lazy"
+            class="w-full rounded-lg object-contain"
+          />
+          <figcaption class="mt-3 text-sm leading-6 opacity-75">
+            <strong>Evidence 1 — Wazuh dashboard.</strong>
+            The monitoring interface used to access the lab's security
+            monitoring information.
           </figcaption>
         </figure>
 
         <figure class="overflow-hidden rounded-xl border border-white/15 p-3">
-          <div class="flex min-h-40 items-center justify-center rounded-lg bg-white/5 p-6 text-center">
-            <p class="text-sm opacity-60">Screenshot 2: Network configuration</p>
-          </div>
-          <figcaption class="mt-3 text-sm opacity-75">
-            Network settings or connectivity checks used during troubleshooting.
+          <img
+            src="/images/Projects/Wazuh/wazuh2.png"
+            alt="Wazuh lab screenshot showing monitoring evidence"
+            loading="lazy"
+            class="w-full rounded-lg object-contain"
+          />
+          <figcaption class="mt-3 text-sm leading-6 opacity-75">
+            <strong>Evidence 2 — Monitoring view.</strong>
+            Additional visual evidence from the Wazuh lab. Review the
+            displayed event or status details when examining this screenshot.
           </figcaption>
         </figure>
 
         <figure class="overflow-hidden rounded-xl border border-white/15 p-3">
-          <div class="flex min-h-40 items-center justify-center rounded-lg bg-white/5 p-6 text-center">
-            <p class="text-sm opacity-60">Screenshot 3: Wazuh dashboard</p>
-          </div>
-          <figcaption class="mt-3 text-sm opacity-75">
-            The dashboard after successful access.
+          <img
+            src="/images/Projects/Wazuh/wazuh3.png"
+            alt="Additional Wazuh security monitoring evidence"
+            loading="lazy"
+            class="w-full rounded-lg object-contain"
+          />
+          <figcaption class="mt-3 text-sm leading-6 opacity-75">
+            <strong>Evidence 3 — Security monitoring evidence.</strong>
+            A further record of the monitoring activity carried out during
+            the exercise.
           </figcaption>
         </figure>
 
         <figure class="overflow-hidden rounded-xl border border-white/15 p-3">
-          <div class="flex min-h-40 items-center justify-center rounded-lg bg-white/5 p-6 text-center">
-            <p class="text-sm opacity-60">Screenshot 4: Security alerts</p>
-          </div>
-          <figcaption class="mt-3 text-sm opacity-75">
-            Alerts or event details observed during lab testing.
+          <img
+            src="/images/Projects/Wazuh/wazuh4.png"
+            alt="Additional screenshot from the Wazuh SIEM home lab"
+            loading="lazy"
+            class="w-full rounded-lg object-contain"
+          />
+          <figcaption class="mt-3 text-sm leading-6 opacity-75">
+            <strong>Evidence 4 — Lab results.</strong>
+            Additional evidence captured during the Wazuh setup and
+            monitoring exercises.
           </figcaption>
         </figure>
       </div>
-    </section>
 
-    <section class="mb-12">
-      <h2 class="mb-4 text-2xl font-semibold">5. Challenges and Troubleshooting</h2>
-      <p class="leading-7 opacity-85">
-        One of the main challenges was reaching the Wazuh dashboard using its
-        assigned IP address. I investigated the VirtualBox network adapter and
-        connectivity settings, then continued troubleshooting until I could
-        access the dashboard and observe alerts. This helped me understand the
-        importance of network configuration when building a security
-        monitoring lab.
+      <p class="mt-4 text-sm leading-6 opacity-70">
+        Before publishing, ensure each caption accurately describes what
+        its screenshot shows. Avoid displaying passwords, tokens or other
+        sensitive information.
       </p>
     </section>
 
     <section class="mb-12">
-      <h2 class="mb-4 text-2xl font-semibold">6. Skills and Lessons Learned</h2>
+      <h2 class="mb-4 text-2xl font-semibold">6. Challenges and Troubleshooting</h2>
+
+      <p class="leading-7 opacity-85">
+        One challenge was accessing the Wazuh dashboard through its assigned
+        IP address. I investigated the VirtualBox network configuration and
+        checked connectivity between the machines. I also encountered agent
+        connectivity issues during the setup process and worked through the
+        monitoring configuration before confirming that the lab was producing
+        useful security events.
+      </p>
+
+      <p class="mt-4 leading-7 opacity-85">
+        The experience reinforced the importance of checking network
+        configuration, confirming agent status and distinguishing a
+        connectivity problem from a lack of detected security activity.
+      </p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="mb-4 text-2xl font-semibold">7. Skills Demonstrated</h2>
+
       <ul class="list-disc space-y-2 pl-6 leading-7 opacity-85">
-        <li>Installing and exploring a SIEM platform in a virtual lab.</li>
-        <li>Investigating virtual network connectivity issues.</li>
-        <li>Accessing security dashboards and reviewing alerts.</li>
-        <li>Building practical foundations in security monitoring and event investigation.</li>
+        <li>SIEM setup and dashboard navigation using Wazuh.</li>
+        <li>Virtual machine and network connectivity troubleshooting.</li>
+        <li>Security event monitoring and alert review.</li>
+        <li>Exposure to network reconnaissance and authentication testing.</li>
+        <li>Understanding alert context, severity and the need for investigation.</li>
+        <li>Documenting lab configuration, observations and technical evidence.</li>
       </ul>
     </section>
 
     <section class="rounded-xl border border-white/15 p-6">
-      <h2 class="mb-3 text-2xl font-semibold">7. Conclusion</h2>
+      <h2 class="mb-3 text-2xl font-semibold">8. Conclusion and Next Steps</h2>
+
       <p class="leading-7 opacity-85">
-        This project gave me practical exposure to setting up a security
-        monitoring environment and reviewing events through Wazuh. Troubleshooting
-        connectivity also strengthened my understanding of virtual networking.
-        I plan to continue expanding the lab by connecting monitored systems and
-        investigating additional security events.
+        This project gave me practical experience setting up a security
+        monitoring lab and observing alerts associated with Nmap scanning
+        and Hydra activity. I also developed my troubleshooting skills by
+        resolving virtual network and agent connectivity issues. My next
+        steps are to examine individual alerts in greater depth, document
+        their rule IDs and severity, correlate relevant events, and practise
+        writing concise SOC investigation reports.
       </p>
     </section>
   </main>
