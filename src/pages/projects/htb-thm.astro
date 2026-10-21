@@ -42,14 +42,16 @@ import Footer from "@/components/footer.astro";
 
     <section class="mb-12">
       <h2 class="mb-4 text-2xl font-semibold">1. Overview</h2>
-      <p class="leading-7 opacity-85">
-        I use Hack The Box Academy and TryHackMe to strengthen my cybersecurity
-        knowledge through structured learning and practical exercises. The
-        activities help me understand how systems communicate, how services
-        can be investigated, and how security weaknesses may be identified.
-        I document key commands, observations, challenges, and lessons learned
-        as I progress.
-      </p>
+
+<p class="leading-7 opacity-85">
+  I use Hack The Box Academy and TryHackMe to develop my cybersecurity
+  skills through structured modules and hands-on exercises. My learning
+  covers networking, Linux and Windows fundamentals, web applications,
+  reconnaissance, Python, threat intelligence, and vulnerability
+  assessment. I document important commands, observations, challenges,
+  and lessons learned to reinforce my understanding and track my progress.
+</p>
+
     </section>
 
     <section class="mb-12">
@@ -129,6 +131,21 @@ import Footer from "@/components/footer.astro";
             Skills: Vulnerability scanning concepts, Nessus, findings review.
           </p>
         </article>
+
+        <article class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 text-lg font-semibold">Using the Metasploit Framework</h3>
+          <p class="leading-7 opacity-85">
+            Explored the Metasploit Framework in a structured training
+            environment, learning about its interface, modules, payloads,
+            and the general workflow used to validate security weaknesses
+            in authorised lab environments.
+          </p>
+          <p class="mt-3 text-sm opacity-70">
+            Skills: Metasploit basics, module selection, payload concepts,
+            controlled lab testing.
+          </p>
+        </article>
+
       </div>
     </section>
 
@@ -174,59 +191,104 @@ import Footer from "@/components/footer.astro";
             Skills: Threat intelligence concepts, indicator research, analysis.
           </p>
         </article>
+        <article class="rounded-xl border border-white/15 p-5">
+          <h3 class="mb-2 text-lg font-semibold">Active Directory — Attacktive Directory</h3>
+          <p class="leading-7 opacity-85">
+            Worked through a TryHackMe-style Active Directory learning
+            exercise to understand Windows domain environments and common
+            security weaknesses. The exercise helped build familiarity
+            with domain enumeration and the security risks associated
+            with misconfigurations.
+          </p>
+          <p class="mt-3 text-sm opacity-70">
+            Skills: Active Directory concepts, domain enumeration,
+            Windows domain security.
+          </p>
+        </article>
       </div>
     </section>
+
+
+
 
     <section class="mb-12">
       <h2 class="mb-4 text-2xl font-semibold">4. Evidence and Documentation</h2>
       <p class="leading-7 opacity-85">
-        I maintain notes on the modules I study, including relevant commands,
-        their purpose, important outputs, challenges, and what I learned from
-        each exercise. Screenshots can be added to demonstrate completed
-        activities and key findings.
+        I track my progress through Hack The Box and TryHackMe while documenting
+        the concepts, commands, challenges, and lessons from my learning
+        exercises. The screenshots below provide an overview of my ongoing
+        training. Individual lab write-ups and technical reports will be added
+        as I continue building my portfolio.
       </p>
 
       <div class="mt-6 grid gap-6 md:grid-cols-2">
-        <figure class="rounded-xl border border-white/15 p-4">
-          <div class="flex min-h-36 items-center justify-center rounded-lg bg-white/5 p-6 text-center">
-            <p class="text-sm opacity-60">Add a Hack The Box screenshot</p>
+        <figure class="overflow-hidden rounded-xl border border-sky-400/30 bg-sky-400/5">
+          <div class="border-b border-sky-400/20 p-3">
+            <h3 class="font-semibold">Hack The Box</h3>
+            <p class="mt-1 text-sm opacity-70">Learning progress</p>
           </div>
-          <figcaption class="mt-3 text-sm opacity-75">
-            Example: a completed module or terminal output from a lab.
+          <img
+            src="/images/Projects/THMHTB/HTB.png"
+            alt="Hack The Box learning progress"
+            class="h-56 w-full object-contain bg-black/20 p-2"
+            loading="lazy"
+          />
+          <figcaption class="p-4 text-sm leading-6 opacity-75">
+            Progress across cybersecurity modules covering technical
+            fundamentals, networking, and security assessment.
           </figcaption>
         </figure>
 
-        <figure class="rounded-xl border border-white/15 p-4">
-          <div class="flex min-h-36 items-center justify-center rounded-lg bg-white/5 p-6 text-center">
-            <p class="text-sm opacity-60">Add a TryHackMe screenshot</p>
+        <figure class="overflow-hidden rounded-xl border border-violet-400/30 bg-violet-400/5">
+          <div class="border-b border-violet-400/20 p-3">
+            <h3 class="font-semibold">TryHackMe</h3>
+            <p class="mt-1 text-sm opacity-70">Learning progress</p>
           </div>
-          <figcaption class="mt-3 text-sm opacity-75">
-            Example: a completed room or evidence of a learning exercise.
+          <img
+            src="/images/Projects/THMHTB/THM.png"
+            alt="TryHackMe learning progress"
+            class="h-56 w-full object-contain bg-black/20 p-2"
+            loading="lazy"
+          />
+          <figcaption class="p-4 text-sm leading-6 opacity-75">
+            Ongoing hands-on learning in Secuirity Analysis, SOC, penetration testing .
           </figcaption>
         </figure>
       </div>
     </section>
 
+
+
     <section class="mb-12">
       <h2 class="mb-4 text-2xl font-semibold">5. Challenges and Lessons Learned</h2>
+
       <p class="leading-7 opacity-85">
         Some exercises required additional research to understand unfamiliar
-        commands, interpret output, and work through configuration issues.
-        Reviewing documentation and practising the concepts helped reinforce
-        my understanding. The experience has also shown me the importance of
-        taking clear notes, verifying results, and explaining technical
-        findings in simple language.
+        commands, interpret tool output, and troubleshoot problems. Reviewing
+        documentation, testing commands in controlled training environments,
+        and revisiting difficult concepts helped strengthen my understanding.
+        I also learned the importance of recording clear notes, verifying
+        results rather than making assumptions, and explaining technical
+        findings in simple language. These habits are useful when investigating
+        security events and documenting findings for others.
       </p>
+
     </section>
 
     <section class="rounded-xl border border-white/15 p-6">
       <h2 class="mb-3 text-2xl font-semibold">6. Conclusion</h2>
+
       <p class="leading-7 opacity-85">
-        These labs are helping me build a foundation in networking, operating
-        systems, reconnaissance, vulnerability assessment, and security
-        analysis. I intend to continue practising, documenting my results, and
-        applying what I learn to my home lab and cybersecurity development.
+        These learning exercises are helping me build a foundation in
+        networking, operating systems, reconnaissance, vulnerability
+        assessment, Active Directory, and security tools. By practising
+        in controlled training environments and documenting what I learn,
+        I am strengthening my technical knowledge and troubleshooting
+        skills. I plan to continue developing these skills through hands-on
+        labs and apply them as I work toward junior cybersecurity analyst
+        and SOC opportunities.
       </p>
+
     </section>
   </main>
 
